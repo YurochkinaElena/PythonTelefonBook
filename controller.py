@@ -1,7 +1,7 @@
 import Model
 import View
-global book
-book = []   
+
+book = []
 
 def start():
     book = Model.read()
