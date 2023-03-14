@@ -1,9 +1,9 @@
 import Model
 import View
 
-book = []
 
-def start():
+
+def start():    
     book = Model.read()
     while True:        
         n = View.menu()
