@@ -16,3 +16,6 @@ def menu():
     else:
         system('clear')
         print('Введите из предложенных вариантов')
+
+def view(book):
+    return

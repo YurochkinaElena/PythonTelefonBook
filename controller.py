@@ -1,10 +1,14 @@
+import Model
+import View
 
-def start():
-    notes = Model.read()
+
+
+def start():    
+    book = Model.read()
     while True:        
         n = View.menu()
         if n == 1:
-            Model.create_contact(contact)
+            Model.create_contact(book)
         if n == 2:
             View.view(book)
         if n == 3:
